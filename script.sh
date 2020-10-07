@@ -2,7 +2,7 @@
 
 # this script will remove minikube and reinstall it on your machine
 minikube stop; minikube delete
-bre update
+brew update
 brew install minikube
 brew install helm
 brew update
