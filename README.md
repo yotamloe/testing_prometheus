@@ -15,7 +15,7 @@ This repo is based on [kube-prometheus-stack](https://github.com/prometheus-comm
 git clone https://github.com/yotamloe/testing_prometheus.git
 cd testing_prometheus
 ```
-* Edit `helm_vals.yaml` file with your configuration
+* If you want to add remote write Edit `helm_vals.yaml` file with your configuration
 
 * Run the script to set up the enviroment
 ```bash

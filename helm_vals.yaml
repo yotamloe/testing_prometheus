@@ -1843,7 +1843,7 @@ prometheus:
     ## The remote_write spec configuration for Prometheus.
     ## ref: https://github.com/prometheus-operator/prometheus-operator/blob/master/Documentation/api.md#remotewritespec
     remoteWrite:
-     - url: http://remote1/push
+     - url: http://remote1
 
     ## Enable/Disable Grafana dashboards provisioning for prometheus remote write feature
     remoteWriteDashboards: false
