@@ -5,7 +5,7 @@ minikube stop; minikube delete
 brew update
 brew install minikube
 brew install helm
-brew update
+brew upgrade
 minikube start --driver=docker
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 helm repo add stable https://kubernetes-charts.storage.googleapis.com/
