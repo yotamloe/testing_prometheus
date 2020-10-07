@@ -6,6 +6,7 @@ This repo is based on [kube-prometheus-stack](https://github.com/prometheus-comm
 
 - Docker
 - Homebrew
+- Minikube
 - Kubectl
 - Helm
 
